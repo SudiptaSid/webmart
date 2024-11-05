@@ -1,0 +1,143 @@
+.text-l-light {
+    color: #f4f4f4;
+}
+.inner-heading .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 0;
+}
+.inner-heading .breadcrumb li:after {
+    content: '/';
+    padding: 0 10px;
+    color: #fff;
+}
+.inner-heading .breadcrumb li:last-child::after {
+    display: none;
+}
+.inner-heading .breadcrumb li a {
+    color: #fff;
+}
+.inner-heading .breadcrumb li a:hover {
+    text-decoration: underline;
+}
+.about-image img {
+    max-width: 100%;
+}
+
+/* ----- Header ----- */
+.navigation {
+    min-height: 70px;
+}
+.navigation.navbar-sticky {
+    min-height: 70px;
+}
+
+/* ----- Team Grid ----- */
+.team-section {
+    padding: 20px;
+    box-shadow: 2px 6px 10px rgb(39 51 62 / 40%);
+}
+.team-section .team-img {
+    margin-bottom: 24px;
+}
+.team-section .team-img img {
+    width: 100%;
+}
+.team-section .team-details {
+    color: #27333e;
+}
+.team-section .team-details h5 {
+    margin-bottom: 20px;
+}
+.team-section .team-details h6 {
+    font-weight: 400;
+}
+.team-section .team-details h6 + h6 {
+    margin-bottom: 0;
+}
+.team-section .team-details h6 i{
+    margin-right: 10px;
+}
+
+/* ----- Service Grid ----- */
+.service-grid {
+    background-color: #303e4a;
+}
+
+/* ----- Service Stats Counter Grid ----- */
+.stats-grid {
+    background-color: #303e4a;
+}
+.stats-grid .counter {
+    font-size: 30px;
+    font-weight: 600;
+}
+.stats-grid p {
+    margin:0;
+}
+
+/* ----- Portfolio Grid ----- */
+.portfolio-grid {
+    background-color: #303e4a;
+}
+.portfolio-grid .img-sec img {
+    width: 100%;
+}
+.portfolio-grid h5 {
+    margin: 14px 0;
+}
+
+.our-team .container {
+    padding-bottom: 200px;
+}
+
+#contact-form {
+    padding: 50px 30px;
+    background-color: #303e4a;
+}
+#contact-form .form-control {
+    color: #ffffff;
+    border-color: #1f282f;
+    background-color: #27333e;
+}
+
+.map-div iframe {
+    width: 100%;
+    height: 600px;
+}
+
+.integration-bubbles .bubble img {
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:767px) {
+    body {
+        font-size: 14px;
+    }
+    .bg-dark.edge.top-left::before,
+    .bg-light.edge.top-left::before {
+        height: 160px;
+        top: -160px;
+    }
+    .navbar-brand {
+        padding: 0;
+    }
+	.navigation .logo {
+		max-height: 50px
+	}
+    .isometric-mockups .tablet.landscape {
+        width: 610px;
+    }
+    img.icon {
+        max-width: 106px;
+    }
+    .lead {
+        font-size: 1.1em;
+    }
+    .bubbles-wrapper {
+        min-height: 300px;
+    }
+    .why-choose-us .section-heading p.lead {
+        width: 100%;
+    }
+}
